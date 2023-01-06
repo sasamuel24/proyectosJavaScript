@@ -36,3 +36,42 @@ function division(h,s){
 }
 division(h,s);
 console.log("El resultado de la operacion division es", resultado);
+
+/* suma , resta , multiplicacion , division
+
+function calculadora(num,operador,num2){
+    let resultado; // definimos la variable resultado con lef
+
+    switch (operador) {
+        case "+": 
+
+                resultado = num + num2;
+            break;
+        case "-":
+            resultado = num - num2;
+            break;
+        case "/": 
+            resultado= num / num2;
+            break;
+        case "*":
+            resultado= num * num2;
+            break;
+        default:
+            resultado = "operador matematico no valido";
+            break;
+    }
+
+    console.log(resultado);
+
+}
+
+num= parseInt(prompt("Ingrese el primer numero")); // parseint se utiliza para sacar un numero a un numero entero 
+// prompt es para que imprima el mensaje
+
+operador= prompt("Ingrse el operador matematico que desea aplicar");
+
+num2 = parseInt(prompt("Ingrese el segundo numero"));
+
+calculadora(num,operador,num2);
+
+*/
